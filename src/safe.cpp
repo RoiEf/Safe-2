@@ -45,9 +45,6 @@ void sleepNow(void);
 
 void setup() {
     DEBUGSERIALBEGIN(9600);
-//    passObj1.initB(badAddress);
-//    passObj1.initP();  // intialising the password object
-
     pinMode(wakePin, INPUT_PULLUP);  // setting wake up interrupt pin to input.
     myservo.attach(servoPin);        // attaches the servo on pin 11 to the servo object
     myservo.write(5);                // reset the servo
