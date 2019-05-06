@@ -7,7 +7,7 @@ The system initiate time lock after pre defined bad password input attempts. (De
 Time lock duration can be configured. (Default is 3 min).<br>
 
 ** Required a modified keypad. (KiCad files are included).<br>
-** Code created using PlatforIO, so NO .ino<br>
+** Code created using PlatformIO, so NO .ino<br>
 <br>
 Instructions:<br>
 Press '*' to start input a password.<br>
