@@ -5,7 +5,9 @@ Features:<br>
 The system go into power save mode after a pre defined elpassed time. (Default is 20 Sec).<br>
 The system initiate time lock after pre defined bad password input attempts. (Default is 3).<br>
 Time lock duration can be configured. (Default is 3 min).<br>
+
 ** Required a modified keypad. (KiCad files are included).<br>
+** Code created using PlatforIO, so NO .ino<br>
 <br>
 Instructions:<br>
 Press '*' to start input a password.<br>
